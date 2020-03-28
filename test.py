@@ -9,7 +9,14 @@ if inefficientMultiplication(4, 5) == 20:
 else:
     print("Failed test 0")
 
-#if inefficientSquare(5) == 25:
-#    print("Passed test 1")
-#else:
-#    print("Failed test 1")
+def inefficientSquare(x):
+    # this does not work on 0
+    product = 1
+    for i in range(2):
+        product = product * x
+    return product
+
+if inefficientSquare(5) == 25:
+    print("Passed test 1")
+else:
+    print("Failed test 1")
