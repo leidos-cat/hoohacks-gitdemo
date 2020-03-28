@@ -28,6 +28,9 @@ if inefficientSquare(5) == 25:
 else:
     print("Failed test 1")
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d52508aaab8905142eda7f025fa052ea9914cb19
 
 def inefficientCube(x):
     return inefficientSquare(x) * x
@@ -36,6 +39,7 @@ if inefficientCube(5) == 125:
     print("Passed test 3")
 else:
     print("Failed test 3")
+<<<<<<< HEAD
 =======
     
 if inefficient_nth_power(2, 3) == 8:
@@ -43,3 +47,10 @@ if inefficient_nth_power(2, 3) == 8:
 else:
     print("Failed test 2")
 >>>>>>> master
+=======
+
+if inefficient_nth_power(2, 3) == 8:
+    print("Passed test 2")
+else:
+    print("Failed test 2")
+>>>>>>> d52508aaab8905142eda7f025fa052ea9914cb19
