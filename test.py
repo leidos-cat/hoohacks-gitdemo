@@ -16,7 +16,19 @@ def inefficientSquare(x):
         product = product * x
     return product
 
+def inefficient_nth_power(x, n):
+    """Raise a number (x) to the n-th power"""
+    res = 1
+    for i in range(n):
+	    res = res * x
+    return res
+
 if inefficientSquare(5) == 25:
     print("Passed test 1")
 else:
     print("Failed test 1")
+    
+if inefficient_nth_power(2, 3) == 8:
+    print("Passed test 2")
+else:
+    print("Failed test 2")
